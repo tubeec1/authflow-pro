@@ -147,7 +147,7 @@ authflow-pro/
 
 ## 👨‍💻 Author
 
-Mohamed Suleyman Ibrahim
+Mohamed Suleyman Ibrahim  
 Full Stack Developer
 
 ---
