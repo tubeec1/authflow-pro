@@ -51,6 +51,7 @@ A full-stack authentication system built with modern technologies, featuring sec
 ### Frontend
 
 * React.js (Hooks & Context API)
+* React Router (Client-side routing)
 * State Management (useState, useReducer)
 * Tailwind CSS (Responsive UI Design)
 
@@ -70,7 +71,7 @@ A full-stack authentication system built with modern technologies, featuring sec
 
 ## 🧠 Concepts Applied
 
-* MVC Architecture (Controller, Service, Model)
+* MVC Architecture (Controller → Service → Model)
 * RESTful API Design
 * Authentication & Authorization (JWT)
 * File Upload & Static File Serving
@@ -84,6 +85,8 @@ A full-stack authentication system built with modern technologies, featuring sec
 ```
 authflow-pro/
   backend/
+    Config ( database )/
+      lb.sql
     routes/
     controllers/
     services/
@@ -102,6 +105,32 @@ authflow-pro/
     context/
 
   docs/   # screenshots
+```
+
+---
+
+## 🗄️ Database Setup
+
+1. Create a MySQL database:
+
+```sql
+CREATE DATABASE authflow;
+```
+
+2. Import the database file:
+
+```bash
+mysql -u root -p authflow < backend/database/lb.sql
+```
+
+3. Configure your environment variables:
+
+```env
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=
+DB_NAME=authflow
+JWT_SECRET=your_secret_key
 ```
 
 ---
@@ -176,7 +205,7 @@ npm run dev
 
 ## 👨‍💻 Author
 
-Mohamed Suleyman Ibrahim -
+Mohamed Suleyman Ibrahim
 Full Stack Developer
 
 ---
