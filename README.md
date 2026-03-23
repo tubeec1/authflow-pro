@@ -22,27 +22,27 @@ A full-stack authentication system built with modern technologies, featuring sec
 
 ### 🏠 Home Page
 
-![Home](docs/home.png)
+![Home](docs/Home.png)
 
 ### 🔐 Login Page
 
-![Login](docs/login.png)
+![Login](docs/Login.png)
 
 ### 📝 Signup Page
 
-![Signup](docs/signup.png)
+![Signup](docs/Signup.png)
 
 ### 📊 Dashboard
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/Dashboard.png)
 
 ### 👤 Profile Page
 
-![Profile](docs/profile.png)
+![Profile](docs/Profile.png)
 
 ### ⚙️ Settings Page
 
-![Settings](docs/settings.png)
+![Settings](docs/Settings.png)
 
 ---
 
