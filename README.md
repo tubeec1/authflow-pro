@@ -6,15 +6,15 @@ A full-stack authentication system built with modern technologies, featuring sec
 
 ## 🚀 Features
 
-- 🔐 User Signup & Login (JWT Authentication)
-- 🔒 Secure Password Hashing using bcrypt
-- 🛡️ Protected Routes & Authorization Middleware
-- 👤 User Profile Management
-- 🖼️ Profile Image Upload (Multer)
-- ♻️ Update Profile (Name, Password, Profile Image)
-- 🧱 Clean MVC Architecture (Controller → Service → Model)
-- 📱 Fully Responsive Dashboard UI (Mobile + Desktop)
-- 🔍 Structured API with standardized responses
+* 🔐 User Signup & Login (JWT Authentication)
+* 🔒 Secure Password Hashing using bcrypt
+* 🛡️ Protected Routes & Authorization Middleware
+* 👤 User Profile Management
+* 🖼️ Profile Image Upload (Multer)
+* ♻️ Update Profile (Name, Password, Profile Image)
+* 🧱 Clean MVC Architecture (Controller → Service → Model)
+* 📱 Fully Responsive Dashboard UI (Mobile + Desktop)
+* 🔍 Structured API with standardized responses
 
 ---
 
@@ -22,27 +22,27 @@ A full-stack authentication system built with modern technologies, featuring sec
 
 ### 🏠 Home Page
 
-![Home](docs/Home.png)
+![Home](docs/home.png)
 
 ### 🔐 Login Page
 
-![Login](docs/Login.png)
+![Login](docs/login.png)
 
 ### 📝 Signup Page
 
-![Signup](docs/Signup.png)
+![Signup](docs/signup.png)
 
 ### 📊 Dashboard
 
-![Dashboard](docs/Dashboard.png)
+![Dashboard](docs/dashboard.png)
 
 ### 👤 Profile Page
 
-![Profile](docs/Profile.png)
+![Profile](docs/profile.png)
 
 ### ⚙️ Settings Page
 
-![Settings](docs/Settings.png)
+![Settings](docs/settings.png)
 
 ---
 
@@ -50,38 +50,38 @@ A full-stack authentication system built with modern technologies, featuring sec
 
 ### Frontend
 
-- React.js (Hooks & Context API)
-- State Management (useState, useReducer)
-- Tailwind CSS (Responsive UI Design)
+* React.js (Hooks & Context API)
+* State Management (useState, useReducer)
+* Tailwind CSS (Responsive UI Design)
 
 ### Backend
 
-- Node.js & Express.js
-- MySQL Database
-- JWT Authentication
-- bcrypt (Password Hashing)
-- multer (File Upload Handling)
-- helmet (Security Headers)
-- morgan (Request Logging)
-- express-rate-limit (API Protection)
-- cors (Cross-Origin Handling)
+* Node.js & Express.js
+* MySQL Database
+* JWT Authentication
+* bcrypt (Password Hashing)
+* multer (File Upload Handling)
+* helmet (Security Headers)
+* morgan (Request Logging)
+* express-rate-limit (API Protection)
+* cors (Cross-Origin Handling)
 
 ---
 
 ## 🧠 Concepts Applied
 
-- MVC Architecture (Controller, Service, Model)
-- RESTful API Design
-- Authentication & Authorization (JWT)
-- File Upload & Static File Serving
-- Secure Backend Practices
-- Middleware Architecture
+* MVC Architecture (Controller, Service, Model)
+* RESTful API Design
+* Authentication & Authorization (JWT)
+* File Upload & Static File Serving
+* Secure Backend Practices
+* Middleware Architecture
 
 ---
 
 ## 📁 Project Structure
 
-```id="structure-final"
+```
 authflow-pro/
   backend/
     routes/
@@ -127,27 +127,56 @@ authflow-pro/
 
 ---
 
+## ⚙️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/tubeec1/authflow-pro.git
+cd authflow-pro
+```
+
+### Install dependencies
+
+#### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+#### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
 ## 🌍 Deployment (Planned)
 
-- Frontend → Vercel
-- Backend → Render
-- Database → Railway
+* Frontend → Vercel
+* Backend → Render
+* Database → Railway
 
 ---
 
 ## 💡 Future Improvements
 
-- Role-Based Access Control (Admin/User)
-- Cloud Image Upload (Cloudinary / AWS S3)
-- Email Verification System
-- Password Reset Functionality
-- API Pagination, Filtering & Search
+* Role-Based Access Control (Admin/User)
+* Cloud Image Upload (Cloudinary / AWS S3)
+* Email Verification System
+* Password Reset Functionality
+* API Pagination, Filtering & Search
 
 ---
 
 ## 👨‍💻 Author
 
-Mohamed Suleyman Ibrahim  
+Mohamed Suleyman Ibrahim
 Full Stack Developer
 
 ---
